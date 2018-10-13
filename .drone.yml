@@ -1,0 +1,5 @@
+pipeline:
+  build-docker:
+    image: plugins/docker
+    repo: vbrandl/note-builder
+    auto_tag: true
